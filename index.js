@@ -16,6 +16,6 @@ moneyField.addEventListener("change", function() {
 formField.addEventListener("submit",(e)=>{
     e.preventDefault();
     let sum=+moneyField.value*(+hoursField.value);
-    document.getElementById("total").innerHTML=sum
+    document.getElementById("total").innerHTML=sum+" te extraño amiguis"
 })
 
