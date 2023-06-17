@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <h1>Calculadora Popeye el marino</h1>
     <form id="form">
         <h3>Calculate salary</h3>
-        <label for="hours">Hours</label>
+        <label for="hours">
+            <b>Horas</b>
+        </label>
         <input type="number" id="hours" autocomplete="off">
         <br>
-        <label for="money">Money per Hour</label>
+        <label for="money">
+            <b>Pesos por hora</b>
+        </label>
         <input type="number" id="money" autocomplete="off">
         <hr>
-        <button>Calculate</button>
-        <h2>Total:</h2>  <span id="total"></span>
-        <script src="./index.js"></script>
-        <h1>Cambio</h1>
+        <button onclick="calculate()">Calculate</button>
+        <h2>Total:</h2>
+        <span id="total"></span>
+        <div id="imageContainer"></div>
+        <h2>
+            <script src="./index.js"></script>
+        </h2>
     </form>
 </body>
 </html>
