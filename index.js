@@ -29,7 +29,8 @@ function calculate() {
 
     // Crear elemento de imagen
     let img = document.createElement('img');
-    img.src = 'https://gifdb.com/images/file/popeye-498-x-455-gif-i9r0gr0mgb8gv90i.gif'; // URL directa de la imagen GIF
+    //img.src = 'https://gifdb.com/images/file/popeye-498-x-455-gif-i9r0gr0mgb8gv90i.gif'; // URL directa de la imagen GIF
+    img.src = 'https://media.tenor.com/URyl-dOyaRkAAAAi/popeye-spinach.gif'; // URL directa de la imagen GIF
     img.alt = 'Imagen GIF';
 
     // Agregar imagen al contenedor
