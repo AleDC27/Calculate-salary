@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("https://w0.peakpx.com/wallpaper/158/1007/HD-wallpaper-popeye-cartoon.jpg");
+    background-image: url("https://w0.peakpx.com/wallpaper/637/957/HD-wallpaper-popeye-amazing-cartoon-character-football-illustration-man-special-vector.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-color: blue;
@@ -64,7 +64,8 @@ input{
    img{
     position: fixed;
     right: 0;
-    top: 84px;
-    left: 107px;
-    width: 150px;
+    top: 202px;
+    left: 36px;
+    width: 292px;
+    border-radius: 55px;
    }
