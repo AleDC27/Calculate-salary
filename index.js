@@ -25,7 +25,7 @@ function calculate() {
     let money = +document.getElementById('money').value;
 
     let sum = hours * money;
-    document.getElementById('total').innerHTML = `<b>Veo que tu salario es de $${sum}. No sé si es mucho o poco, pero recuerda que el dinero es la raíz de todo mal. Purifícate donde esa raíz de todo mal a tus hijitos.</b> <h2>Quiéreme papi</h2>`;
+    document.getElementById('total').innerHTML = `<b>Veo que tu salario es de $${sum}. No sé si es mucho o poco, pero recuerda que el dinero es la raíz de todo mal. Purifícate dandole esa raíz de todo mal a tus hijitos.</b> <h2>Quiéreme papi</h2>`;
 
     // Crear elemento de imagen
     let img = document.createElement('img');
